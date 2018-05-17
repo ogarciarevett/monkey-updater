@@ -1,6 +1,6 @@
 {
   "name": "monkey-uploader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Nodejs mandrill template uploader ( only with API key and built templates )",
   "main": "server.js",
   "scripts": {
