@@ -1,0 +1,38 @@
+{
+  "name": "monkey-uploader",
+  "version": "0.0.1",
+  "description": "Nodejs mandrill template uploader ( only with API key and built templates )",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon ./lib/index.js",
+    "start": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogarciarevett/monkey-uploader.git"
+  },
+  "keywords": [
+    "mandrill",
+    "mailchimp",
+    "template",
+    "upload",
+    "uploader",
+    "test",
+    "api mandrill",
+    "test template"
+  ],
+  "author": "Omar Garcia and Lucas Nuñez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogarciarevett/monkey-uploader/issues"
+  },
+  "homepage": "https://github.com/ogarciarevett/monkey-uploader#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.4",
+    "prettyjson": "^1.2.1"
+  },
+  "dependencies": {
+    "html-minifier": "^3.5.15",
+    "mandrill-api": "^1.0.45"
+  }
+}
