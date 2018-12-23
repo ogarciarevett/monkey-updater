@@ -9,14 +9,34 @@ Nodejs mandrill template uploader ( only with API key and built templates )
 1. API KEY
 2. html templates
 
-## Install
+## Setup
 
 `npm i -S monkey-updater`
 
+```js
+const MonkeyUpdater = require('monkey-uploader');
+const monkeyUpdater = new MonkeyUpdater(<Your MANDRILL API KEY HERE>:String);
+```
+
 ## Usages
 
+### UPDATE TEMPLATES
+
+```ts
+monkeyUpdater.update('html_template_path_here.html')
+.then(res => console.log(res))
+.catch(error => console.log(error));
 ```
-const MonkeyUpdater = require('MonkeyUpdater');
-const monkeyUpdater = new MonkeyUpdater(<Your MANDRILL API KEY HERE>:String);
-monkeyUpdater.upload('templateName',  __dirname + '/template.html');
+
+### OR ADD NEW TEMPLATES TOO
+
+```ts
+monkeyUpdater.add(
+    'html_template_path_here.html',
+    'Name here',
+    'from@noreplyemail.com',
+    'subject here'
+    )
+.then(res => console.log(res))
+.catch(error => console.log(error));
 ```
