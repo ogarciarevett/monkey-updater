@@ -1,5 +1,5 @@
 # monkey-uploader
-Nodejs mandrill template uploader ( only with API key and built templates )
+Nodejs mandrill template uploader ( you only needs an API key from mailchimp )
 
 
 ![alt text][logo]
