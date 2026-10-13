@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title"><title id="title">a monkey holding an envelope</title>
+<circle cx="37" cy="72" r="23" fill="#18283b" stroke="#f4ba60" stroke-width="6"/><circle cx="143" cy="72" r="23" fill="#18283b" stroke="#f4ba60" stroke-width="6"/>
+<path d="M36 78C36 13 144 13 144 78V96C144 154 36 154 36 96Z" fill="#18283b" stroke="#f4ba60" stroke-width="6"/>
+<path d="M49 79C49 47 76 44 90 65 104 44 131 47 131 79 131 100 111 120 90 120 69 120 49 100 49 79Z" fill="#f4ba60"/>
+<circle cx="71" cy="77" r="6" fill="#18283b"/><circle cx="109" cy="77" r="6" fill="#18283b"/>
+<path d="M82 97Q90 103 98 97" fill="none" stroke="#18283b" stroke-width="5" stroke-linecap="round"/>
+<rect x="46" y="113" width="88" height="50" rx="9" fill="#8ee4cf" stroke="#18283b" stroke-width="6"/>
+<path d="m50 117 40 27 40-27" fill="none" stroke="#18283b" stroke-width="6" stroke-linejoin="round"/>
+</svg>

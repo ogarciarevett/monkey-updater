@@ -1,10 +1,24 @@
-# monkey-uploader
+<div align="center">
+
+<img src="assets/monkey-updater.svg" width="180" alt="monkey-updater: a monkey holding an envelope">
+
+# monkey-updater
+
+**Upload local HTML templates to the Mandrill API with Node.js.**
+
+[![license: MIT](https://img.shields.io/badge/license-MIT-22a06b)](LICENSE)
+[![language: JavaScript](https://img.shields.io/badge/language-JavaScript-b89a21)](src/)
+[![runtime: Node.js](https://img.shields.io/badge/runtime-Node.js-287ec1)](package.json)
+
+Works with **Node.js** · **Mandrill**
+
+</div>
+
+---
+
 Nodejs mandrill template uploader ( you only needs an API key from mailchimp )
 
 
-![alt text][logo]
-
-[logo]: https://i.pinimg.com/564x/3e/5d/70/3e5d70ae6ee1b7ed0ac08a34e368f572.jpg "Logo"
 ## Requirements 
 1. API KEY
 2. html templates
